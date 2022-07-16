@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timer</title>
+  <style>
+    body{
+      font-size: 30px;
+      text-transform: uppercase;
+      background-color: black;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .counter{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      text-align: center;
+    }
+
+    div {
+      font-size: 40px;
+    }
+  </style>
+</head>
+<body>
+  <section class="counter">
+  <h1>Important event will take place in:</h1>
+  <div>
+    <span class="day">.</span> d:
+    <span class='hour'>.</span> h:
+    <span class='minute'>.</span> m:
+    <span class='second'>.</span> s:
+  </div>
+</section>
+
+<script src='./script.js'></script>
+</body>
+</html>
